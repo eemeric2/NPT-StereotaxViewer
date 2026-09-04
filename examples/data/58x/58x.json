@@ -1,0 +1,36 @@
+{
+    "nhp_id": "58x",
+    "nhp_name": "Hobbit",
+    "monkey_key": "Ho",
+    "anatomical_file": "58x_wip_mprageax_.70mm_sense_4_1_cropped.nii",
+    "voi_files": [
+        "58x_wip_mprageax_.70mm_sense_4_1_cropped_principals.xml",
+        "58x_wip_mprageax_.70mm_sense_4_1_cropped_arcuates.xml"
+    ],
+    "stereotax_zero_ras": [
+        -61.6,
+        -88.75,
+        13.125
+    ],
+    "chambers": [
+        {
+            "chamber_id": "Left PFC",
+            "name": "Left PFC",
+            "stereo_location": [
+                -14.3479,
+                29.181,
+                50.0
+            ],
+            "tilt": [
+                0.0,
+                -10.0,
+                0.0
+            ],
+            "grid_type": "crist",
+            "crist_lookup_file": "allelectrodelocations.csv",
+            "notes": "Primary recording chamber over dlPFC with Crist grid. Y-tilt updated to positive convention (right-hand rule).",
+            "active": true
+        }        
+    ],
+    "active": true
+}
